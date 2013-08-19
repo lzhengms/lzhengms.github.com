@@ -52,8 +52,11 @@ tags : [intro,beginner,jekyll,githubblog]
     在安装好的ruby控制台上面,进入到项目的目录下，执行这个命令jekyll serve。声明下：我看到网上这些命令$ jekyll --server，是不成功的，
     我是直接输入jekyll serve这个命令后就可以执行了。这个命令输完之后，在浏览器上输入http://localhost:4000，就可以访问了。_site目录
     是最终的静态网页.在访问的时候可能出现乱码问题，修改下_includes/themes/default.html的编码就可以了，改成gb2312。还有遇到一些中文标题，列表无效，一个标题里面要
-	含有英文才可以正常有列表的样式。或者不用改编码，把文件保存成utf8无bom格式的，再直接改下convertible.rb这个文件的31行<pre><code>self.content=File.read(File.join(base,name),:encoding=>"utf-8")</code></pre>这是解决jekyll中文
-	文章的问题，解决jekyll模板中文问题，在tags/include.rb的23行<pre><code>source=File.read(@file,:encode=>"utf-8")</code></pre>
+	含有英文才可以正常有列表的样式。经过多次测试，虽然在本地可以，但是在github上是会build failed的，而且会有很多问题。下面这种方式我是百试百灵的，
+        有三个注意点：  
+       （1）把博客文章保存成utf8无bom格式  
+       （2）解决jekyll中文文章的问题，改下convertible.rb这个文件的31行<pre><code>self.content=File.read(File.join(base,name),:encoding=>"utf-8")</code></pre>  
+       （3）解决jekyll模板中文问题，在tags/include.rb的23行<pre><code>source=File.read(@file,:encode=>"utf-8")</code></pre>  
 *  **git提交**  
         最后使用git工具提交到github.com上       
         从github.com下载文件的git命令如下:   
