@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 最近博客列表!
+title: 最近的博客列表
 tagline: 
 ---
 {% include JB/setup %}
