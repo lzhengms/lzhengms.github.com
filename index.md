@@ -1,6 +1,6 @@
 ﻿---
 layout: page
-title: 最新的博客列表!
+title: Hello World!
 tagline: 
 ---
 {% include JB/setup %}
