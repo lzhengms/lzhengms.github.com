@@ -1,6 +1,7 @@
 ---
 layout: post
-category : github_blog
+category : gitblog
+title: github上搭建博客的流程
 tags : [intro,beginner,jekyll,githubblog]
 ---
 {% include JB/setup %}

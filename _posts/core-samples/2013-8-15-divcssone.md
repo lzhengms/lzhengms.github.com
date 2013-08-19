@@ -1,6 +1,7 @@
 ---
 layout: post
 category : github_blog
+title : 切图的流程
 tags : [intro,beginner,jekyll,githubblog]
 ---
 {% include JB/setup %}
