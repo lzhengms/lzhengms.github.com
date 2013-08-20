@@ -1,6 +1,6 @@
 ---
 layout: post
-category : github_blog
+category : div+css
 title : 浮动，定位，行高，块级内联的理解
 tags : [intro,beginner,jekyll,githubblog]
 ---

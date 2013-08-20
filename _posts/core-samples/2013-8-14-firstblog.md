@@ -1,6 +1,6 @@
 ---
 layout: post
-category : gitblog
+category : github_blog
 title: github上搭建博客的流程
 tags : [intro,beginner,jekyll,githubblog]
 ---
