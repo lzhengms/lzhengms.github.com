@@ -1,6 +1,6 @@
 ---
 layout: post
-category : div+css
+category : div_css
 title : 切图的流程
 tags : [intro,beginner,jekyll,githubblog]
 ---
