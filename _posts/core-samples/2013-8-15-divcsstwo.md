@@ -54,7 +54,9 @@ tags : [intro,beginner,jekyll,githubblog]
 - **定位position**   
         position默认的是static，fixed在ie6下是不支持的。absolute和fixed是脱离文档流的，relative还是有占据文档空间的。当使用absolute
         定位的时候，它会去找父级有用到position这属性的元素作为标准，进行偏移。如果没找到就相对于浏览器窗口。而relative是相对于本身元素
-        所在的原来位置进行偏移的。设置了这个属性之后，z-index才会生效，一般position是配合着z-index使用的。z-index越大，在越上面一层  
+        所在的原来位置进行偏移的。设置了这个属性之后，z-index才会生效，一般position是配合着z-index使用的。z-index越大，在越上面一层。百分比换算成像素
+		
+        偏移的像素值=(容器宽度-背景图片宽度)*100%	
 - **display**  
          display常用的有inline,block,inline-block。inline可以将块级元素变成内联元素，block可以将内联元素变成块级元素。inline-block
          可以让一个元素有内联的性质同时有块的性质。display和visibility的区别是，`display`不占据文档位置，`visibility`有占据文档空间，
