@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d3bfd72-593f-4ce7-b91f-b4694a488076" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2013-8-14-firstblog.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2013-8-14-firstblog.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/themes/twitter/default.html" afterPath="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.md" afterPath="$PROJECT_DIR$/index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/themes/twitter/page.html" afterPath="$PROJECT_DIR$/_includes/themes/twitter/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/themes/twitter/post.html" afterPath="$PROJECT_DIR$/_includes/themes/twitter/post.html" />
-    </list>
+    <list default="true" id="3d3bfd72-593f-4ce7-b91f-b4694a488076" name="Default" comment="" />
     <ignored path="lzhengms.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="3d3bfd72-593f-4ce7-b91f-b4694a488076" time="1380248359635" ignored="false" />
@@ -65,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.12820514">
               <folding />
             </state>
           </provider>
@@ -146,10 +140,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/links/index.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="59" selection-end="59" vertical-scroll-proportion="0.15384616">
+            <state line="6" column="2" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -543,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="21" selection-start="2200" selection-end="2200" vertical-scroll-proportion="-11.774194">
@@ -587,7 +574,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/links/index.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="59" selection-end="59" vertical-scroll-proportion="0.15384616">
+        <state line="6" column="2" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.12820514">
           <folding />
         </state>
       </provider>
