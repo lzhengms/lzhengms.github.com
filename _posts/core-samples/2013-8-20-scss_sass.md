@@ -18,7 +18,11 @@ tags : [intro,beginner,jekyll,githubblog]
 	      已经试过了，真的可以生成，很神奇。 sass文件对代码的排版有着非常严格的要求，而且没有大括号，没有分毫。scss对代码的要求没有那么高  
 	 （4）具体的语法，还是要参考官网的<http://sass-lang.com>
 	 
-          
+###compass模块：
+	
+<http://www.ruanyifeng.com/blog/2012/11/compass.html>
+
+官网地址:<http://compass-style.org/>
            
            
     
