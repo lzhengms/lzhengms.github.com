@@ -68,4 +68,54 @@ title : css的一些常用小技巧
 	filter:Alpha(opacity=0)-------ie下可以识别，opacity是0-100，step是10
 	opacity是0是看不到的，1是看得到的
 	
+##6.ie6/7下设置select的的高度和边框
+
+<pre><code>
+.select-box{
+    *padding: 10px 10px 10px 0px;
+    *width: 180px;
+    *border: 1px solid #ccc;
+    *background: #fff;
+    display: inline-block;
+    *display: inline;
+    zoom:1;
+}
+.select-wrap{
+ *width: 190px;
+    *height: 19px;
+    *line-height: 16px;
+    *overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    overflow:hidden;
+    position: relative;
+    zoom:1;
+}
+.select-wrap select{
+    *margin: -1px;
+    *width: 192px;
+    *height: 21px;
+    *font-size:12px;
+    *overflow: hidden;
+    *display: block;
+    zoom:1;
+    position: relative;
+}
+
+  <div class="select-box">
+                        <div class="select-wrap">
+                    <select class="rounder">
+                    <option value="1">品牌营销</option>
+                    <option value="2">产品测试</option>
+                    <option value="3">消费者分析</option>
+                    <option value="4">满意度调查</option>
+                    <option value="5">人力资源</option>
+                    <option value="6">学术教育</option>
+                    <option value="7">社会民意</option>
+                    <option value="8">其它</option>
+                </select>
+				        </div>
+  </div>
+</code></pre>
+	
 	
