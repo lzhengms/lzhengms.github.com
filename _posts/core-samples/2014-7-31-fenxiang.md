@@ -173,7 +173,7 @@ title : 知识分享
           *在做继承的时候，一定要保证【构造函数的prototype的constructor属性指向正确】*
 
 ####（4）hasOwnProperty
-**检查属性是否是实例本身的，不是原型上的**
+**检查属性是否是实例本身的，不是在原型上的**
 
          function Obj(name){
            this.name=name;
