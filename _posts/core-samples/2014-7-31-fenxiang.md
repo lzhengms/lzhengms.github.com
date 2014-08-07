@@ -45,16 +45,16 @@ title : 知识分享
        在ie中，在input敲回车的时候，ie会自动寻找第一个button标签并且触发。也就是被第一个button标签劫持。
 
        [这样设置没有效果，回车仍然会触发button1]
-       <p><button style="display:none;visibility:hidden">禁止input回车触发的button</button></p>
+       &lt;p&gt;&lt;button style="display:none;visibility:hidden"&gt;禁止input回车触发的button&lt;/button&gt;&lt;/p&gt;
 
        [这样才有用，回车不会触发button1了]
-       <div style="display:block; width:0; height:0; overflow:hidden;">
-           <button>禁止input回车触发的button</button>
-       </div>
+       &lt;div style="display:block; width:0; height:0; overflow:hidden;"&gt;
+           &lt;button&gt;禁止input回车触发的button&lt;/button&gt;
+       &lt;/div&gt;
 
-       <p><button onclick="console.log('from button click1');">button1</button></p>
-       <p><button onclick="console.log('from button click2');">button2</button></p>
-       <p><input type="text" value="在这里回车就触发提交按钮" style="width:300px;" /></p>
+       &lt;p&gt;&lt;button onclick="console.log('from button click1');"&gt;button1&lt;/button&gt;&lt;/p&gt;
+       &lt;p&gt;&lt;button onclick="console.log('from button click2');"&gt;button2&lt;/button&gt;&lt;/p&gt;
+       &lt;p&gt;&lt;input type="text" value="在这里回车就触发提交按钮" style="width:300px;" /&gt;&lt;/p&gt;
 
 
         *尽量不要使用button标签，会引发很多意外情况。设计按钮可以使用a标签或者input[type=button]*
@@ -105,12 +105,12 @@ title : 知识分享
 ####（4）auto高度
 <pre><code>
 
-          var s=$('<div style="height:auto;"><p style="margin:20px 0;background-color:red">ddddddd</p></div>');
+          var s=$('&lt;div style="height:auto;"&gt;&lt;p style="margin:20px 0;background-color:red"&gt;ddddddd&lt;/p&gt;&lt;/div&gt;');
           父div高度只有“dddd”文字的高度，父div有margin值，值就是p的margin值
 
-          var s1=$('<div style="height:auto;border:1px solid #000；padding：1px"><p style="margin:20px 0;background-color:red">ddddddd</p></div>');
+          var s1=$('&lt;div style="height:auto;border:1px solid #000；padding：1px"&gt;&lt;p style="margin:20px 0;background-color:red"&gt;ddddddd&lt;/p&gt;&lt;/div&gt;');
           加了边框或者内边距的话，父div的高度包含了“dddd”文字的高度和p的margin，父div没有margin值
-</code></pre>
+</code&gt;</pre>
 		  
 ###3.几个关键字的应用和区分:
 
