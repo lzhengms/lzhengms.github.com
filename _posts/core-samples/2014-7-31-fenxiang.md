@@ -110,7 +110,7 @@ title : 知识分享
 
           var s1=$('&lt;div style="height:auto;border:1px solid #000；padding：1px"&gt;&lt;p style="margin:20px 0;background-color:red"&gt;ddddddd&lt;/p&gt;&lt;/div&gt;');
           加了边框或者内边距的话，父div的高度包含了“dddd”文字的高度和p的margin，父div没有margin值
-</code&gt;</pre>
+</code></pre>
 		  
 ###3.几个关键字的应用和区分:
 
